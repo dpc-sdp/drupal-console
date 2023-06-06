@@ -55,6 +55,11 @@
         "symfony/http-foundation": "~3.0|~4.0"
     },
      "repositories": {
+        "drupal": {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8",
+            "exclude": ["drupal/console-core"]
+        },
         "drupal/console-core": {
             "type": "vcs",
             "no-api": true,
