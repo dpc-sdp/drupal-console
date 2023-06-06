@@ -63,7 +63,7 @@
         "drupal/console-core": {
             "type": "vcs",
             "no-api": true,
-            "url": "https://github.com/dpc-sdp/rest-api-behat-extension.git"
+            "url": "https://github.com/dpc-sdp/drupal-console-core.git"
         }
      },
     "suggest": {
