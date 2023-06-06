@@ -54,6 +54,13 @@
         "symfony/dom-crawler": "~3.0|~4.0",
         "symfony/http-foundation": "~3.0|~4.0"
     },
+     "repositories": {
+        "drupal/console-core": {
+            "type": "vcs",
+            "no-api": true,
+            "url": "https://github.com/dpc-sdp/rest-api-behat-extension.git"
+        }
+     },
     "suggest": {
         "symfony/thanks": "Thank your favorite PHP projects on GitHub using the CLI",
         "vlucas/phpdotenv": "Loads environment variables from .env to getenv(), $_ENV and $_SERVER automagically"
